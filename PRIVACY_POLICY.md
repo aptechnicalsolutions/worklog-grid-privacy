@@ -1,6 +1,6 @@
 # WorkLog Grid for Jira – Privacy Policy
 
-**Effective Date:** [Insert Date]
+**Effective Date:** 03/01/2026
 
 AP Technical Solutions LLC (“we”, “our”, or “us”) provides the WorkLog Grid for Jira application (the “App”). This Privacy Policy explains how the App processes data.
 
