@@ -1,6 +1,6 @@
 # WorkLog Grid for Jira — Security Statement
 
-**Last updated:** [Insert Date]
+**Last updated:** 03/01/2026
 
 AP Technical Solutions LLC (“we”) provides the WorkLog Grid for Jira application (the “App”). This Security Statement describes how the App handles data and relies on Atlassian’s infrastructure for security.
 
@@ -50,4 +50,4 @@ For security-related questions or to report a concern:
 **AP Technical Solutions LLC**  
 Email: aptechnicalsolutionsllc@gmail.com
 
-For general data practices, see our [Privacy Policy](../PRIVACY_POLICY.md).
+For general data practices, see our [Privacy Policy](./PRIVACY_POLICY.md).
