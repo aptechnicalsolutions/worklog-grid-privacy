@@ -50,4 +50,4 @@ WorkLog Grid for Jira relies on Atlassian’s Forge platform security model. All
 If you have questions about this Privacy Policy, please contact:
 
 **AP Technical Solutions LLC**  
-Email: aptechnicalsolutionsllc@gmail.com
+Email: support@aptechnicalsolutions.com

@@ -48,6 +48,6 @@ AP Technical Solutions LLC (“we”) provides the WorkLog Grid for Jira applica
 For security-related questions or to report a concern:
 
 **AP Technical Solutions LLC**  
-Email: aptechnicalsolutionsllc@gmail.com
+Email: security@aptechnicalsolutions.com
 
 For general data practices, see our [Privacy Policy](./PRIVACY_POLICY.md).

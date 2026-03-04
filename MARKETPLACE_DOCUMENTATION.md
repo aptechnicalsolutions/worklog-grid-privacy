@@ -113,6 +113,6 @@ The CSV is generated from the same worklog data as the grid and is suitable for 
 For questions, issues, or feature requests:
 
 - **Vendor:** AP Technical Solutions LLC  
-- **Email:** aptechnicalsolutionsllc@gmail.com
+- **Email:** support@aptechnicalsolutions.com
 
 For licensing and upgrades, contact your Jira administrator.
