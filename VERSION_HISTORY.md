@@ -57,6 +57,6 @@ This document describes what’s new and changed in each release.
 
 ## Support
 
-For questions or issues: **AP Technical Solutions LLC** — aptechnicalsolutionsllc@gmail.com.
+For questions or issues: **AP Technical Solutions LLC** — apich@aptechnicalsolutions.com.
 
 For licensing and upgrades, contact your Jira administrator.
