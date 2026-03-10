@@ -4,6 +4,54 @@ This document describes what’s new and changed in each release.
 
 ---
 
+## Version 2.4.0
+
+**Release summary:** Log work directly from the grid. Click a cell to open a Jira-style modal (date, time started, time spent, description); save updates Jira and refreshes the grid.
+
+### Changes
+
+- **Log work from the grid**
+  - When viewing **Me**, click any hour cell to open a **Log work** modal.
+  - Set **date**, **time started**, **time spent** (hours), and optional **description** (stored as worklog comment in Jira).
+  - Save adds or updates the worklog via Jira REST API; grid cache is invalidated so the next refresh shows the new value immediately.
+  - Same workflow as logging work on the issue page, without leaving the dashboard. **Other** user view remains read-only.
+- **Backend**
+  - New scope: **write:jira-work** for creating and updating worklogs.
+  - **saveWorklog** resolver accepts optional **started** (ISO date/time) and **comment** (plain text, sent as ADF to Jira).
+  - After a successful save, the timesheet cache for the current view is invalidated so the grid refetches fresh data.
+- **Technical**
+  - Permissions: `storage:app`, `read:jira-work`, **`write:jira-work`**, `read:jira-user`.
+
+---
+
+## Version 2.3.0
+
+**Release summary:** Simplified pricing and access model aligned with Atlassian Marketplace (1–10 users free, 11+ paid). Free users get a full in-app experience with soft export limits; trial badges removed.
+
+### Changes
+
+- **Pricing & access**
+  - **Trial users** (`license.isEvaluation`): full access, unlimited exports; no gating.
+  - **Paid users** (`license.isActive`): full access, unlimited exports.
+  - **Free users**: full viewing and filtering; custom date range (up to 31 days), project filter, and **Other user** (single user) are now available to everyone. No Pro-only paywalls for normal usage.
+- **Export model**
+  - **Free**: CSV export allowed with soft limits — max 31 days per export, 5 exports per user per month, up to 1000 rows. Limits enforced server-side; export count stored per site/user/month.
+  - **Paid/Trial**: Unlimited exports; up to 365 days per export and higher row cap.
+  - Export button visible to all users; when free users hit limits, a friendly “Export limits” modal explains the policy and offers a support link for small teams that want unlimited exports.
+- **Small-team upgrade path**
+  - Modal copy emphasizes unlimited exports and extended ranges for paid plans; directs small teams to contact support for manual upgrade options (Marketplace billing is site-based, so 1–10 user sites cannot pay via tier).
+- **UI/UX**
+  - Removed all **PRO** badges (Custom dates, Other user, Export CSV).
+  - Removed **Pro Trial** pill/badge.
+  - No “Free Tier” badge. Upgrade messaging only when export limits are exceeded or export range exceeds free max.
+- **Backend**
+  - Centralized plan config (`PLAN_CONFIG`); helpers: `getPlanState()`, `getExportLimits()`, `canExport()`, `getUpgradeMessageContext()`.
+  - `getLicenseInfo` now returns export limits and optional `supportUrl` (set via `WORKLOGGRID_SUPPORT_URL` for “Contact support” link).
+- **Manifest**
+  - Gadget description updated: view yours or one other user’s timesheet; export to CSV with soft limits on free plans.
+
+---
+
 ## Version 2.2.0
 
 **Release summary:** Security and dependency updates. No change to app behavior or features.
@@ -57,6 +105,6 @@ This document describes what’s new and changed in each release.
 
 ## Support
 
-For questions or issues: **AP Technical Solutions LLC** — apich@aptechnicalsolutions.com.
+For questions or issues: **AP Technical Solutions LLC** — aptechnicalsolutionsllc@gmail.com.
 
 For licensing and upgrades, contact your Jira administrator.
