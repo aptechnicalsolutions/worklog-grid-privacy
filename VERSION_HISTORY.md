@@ -4,9 +4,9 @@ This document describes what’s new and changed in each release.
 
 ---
 
-## Version 2.4.0
+## Version 3.0.0
 
-**Release summary:** Log work directly from the grid. Click a cell to open a Jira-style modal (date, time started, time spent, description); save updates Jira and refreshes the grid.
+**Release summary:** Log work directly from the grid. Click a cell to open a Jira-style modal (date, time started, time spent, description); save updates Jira and refreshes the grid. *(Published to production as 3.0.)*
 
 ### Changes
 
