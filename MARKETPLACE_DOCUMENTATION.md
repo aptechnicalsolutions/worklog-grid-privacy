@@ -15,6 +15,7 @@ WorkLog Grid is a Jira Cloud dashboard gadget that displays your worklogs in a t
 - [Exporting to CSV](#exporting-to-csv)
 - [Tips](#tips)
 - [Support](#support)
+- [Version history](#version-history)
 
 ---
 
@@ -60,7 +61,7 @@ The gadget loads with the current week by default. Use the controls to change th
 - **Week** — Current week (Sunday–Saturday).
 - **Last Week** — Previous week (Sunday–Saturday).
 - **Month** — Current calendar month.
-- **Custom** — Pick any start and end date (free: up to 31 days; paid/trial: up to 1 year).
+- **Custom** — Pick any start and end date (free: up to 31 days; paid/trial: up to 1 year). After choosing start and end dates, click **Apply** to load the grid for that range; the grid does not refresh when you simply click away from the date fields.
 
 ### Show: Me or Other
 
@@ -134,3 +135,9 @@ For questions, issues, or feature requests:
 - **Email:** support@aptechnicalsolutions.com
 
 For licensing and upgrades, contact your Jira administrator.
+
+---
+
+## Version history
+
+For a list of changes in each release, see [VERSION_HISTORY.md](./VERSION_HISTORY.md). Current public versions: **3.0.0**, **2.2.0**, and **2.0.0**. The next planned release is **3.1.0** (minor improvements and security updates).
