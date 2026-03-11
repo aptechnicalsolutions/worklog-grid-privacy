@@ -4,7 +4,7 @@ This document describes what’s new and changed in each release.
 
 ---
 
-## Version 3.1.0 *(pending release)*
+## Version 3.2.0
 
 **Release summary:** Improved custom date range behavior, Log work modal usability in short gadgets, and backend security/robustness. Minor update; no new permissions or breaking changes.
 

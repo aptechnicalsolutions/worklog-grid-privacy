@@ -140,4 +140,4 @@ For licensing and upgrades, contact your Jira administrator.
 
 ## Version history
 
-For a list of changes in each release, see [VERSION_HISTORY.md](./VERSION_HISTORY.md). Current public versions: **3.0.0**, **2.2.0**, and **2.0.0**. The next planned release is **3.1.0** (minor improvements and security updates).
+For a list of changes in each release, see [VERSION_HISTORY.md](./VERSION_HISTORY.md). Current public versions: **3.2.0** (latest), **3.0.0**, **2.2.0**, and **2.0.0**.
